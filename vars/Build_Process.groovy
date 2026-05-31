@@ -1,5 +1,5 @@
 def call(){
       echo "Building..."
-      sh "docker build -t two-tier-flask_app ."
+      sh "docker build -t two-tier-flask-app ."
       echo "Building Completed..."
 }
